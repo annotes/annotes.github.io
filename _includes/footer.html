@@ -6,11 +6,10 @@
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <p class="feed-subscribe">
-          
+          <li><a rel="author" href="{{ "/" | relative_url }}">{{ site.title}}</a></li>
         </p>
       {%- if site.author %}
         <ul class="contact-list">
-          <li><a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title}}</a></li>
           {% if site.author.name -%}
             <li class="p-name">{{ site.author.name | escape }}</li>
           {% endif -%}
