@@ -6,9 +6,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <p class="feed-subscribe">
-          {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {%- endif -%}
+          <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
         </p>
       {%- if site.author %}
         <ul class="contact-list">
