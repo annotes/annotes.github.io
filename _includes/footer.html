@@ -5,9 +5,9 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        <p class="feed-subscribe">
-          <a rel="author" href="{{ "/" | relative_url }}">{{ site.title}}</a>
-        </p>
+        <h2 class="feed-subscribe">
+          <a rel="author" href="{{ "/" | relative_url }}">{{ site.title| escape }}</a>
+        </h2>
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
