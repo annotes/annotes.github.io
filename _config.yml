@@ -1,7 +1,7 @@
 title: My Digital NoteBook
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Anu Nair
+  email: anu.nair@outlook.in
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -19,7 +19,7 @@ theme: minima
 #remote_theme: jekyll/minima
 
 plugins:
-  - jekyll-feed
+  #- jekyll-feed
   - jekyll-seo-tag
 
 # Theme-specific settings
