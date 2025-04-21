@@ -1,4 +1,3 @@
-
 ---
 layout: blog-index
 title: Blog
